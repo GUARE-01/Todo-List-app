@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Todo app</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo py-3">
+      <h1 class="l-veryLightGrey">TODO</h1>
+      <button class="btn-toggle">
+        <img class="toggle-img" src="/images/icon-moon.svg" alt="icon-moon">
+      </button>
+    </div>
+    <div class="new-todo">
+      <button class="input-uncheck">
+        <img class=" image-size hidden" src="/images/check.svg" alt="check">
+      </button>
+      <input type="text" placeholder="Create a new todo..." name="new-entry" class="new-entry">
+      <button class="btn-arrow">
+        <img class="svg-arrow" src="/images/arrow-right.svg" alt="arrow-right">
+      </button>
+    </div>
+  </header>
+  <main>
+    <div class="main">
+      <section class="todo-lists">
+        <ul id="lists">
+          <!-- <li class="list">
+            <button class="btn btn-uncheck">
+              <img class="img-check image-size hidden" src="/images/icon-check.svg" alt="check">
+            </button>
+            <p class="list-entry l-veryDarkGreyishBlue f-s12 weight-700">Complete online Javascript course</p>
+            <button class="btn-cancel">
+              <img class="img-cancel image-size" src="/images/icon-cross.svg" alt="cross">
+            </button>
+          </li> -->
+
+        </ul>
+      </section>
+
+      <section class="list-footer">
+        <p class="l-lightGrayishblue weight-500 f-s10">
+          <span class="list-numbers"></span> items left
+        </p>
+        <div class="list-footer-buttons">
+          <button class="all btn-footer p-brightBlue weight-700 f-s10">All</button>
+          <button class="active btn-footer l-darkGreyishBlue weight-700 f-s10">Active</button>
+          <button class="completed btn-footer l-darkGreyishBlue weight-700 f-s10">Completed</button>
+        </div>
+        <button class="clear btn-footer l-lightGrayishblue weight-500 f-s10">Clear Completed</button>
+      </section>
+    </div>
+    <p class="l-darkGreyishBlue p-2 weight-700 f-s12">Drag and drop to reorder list</p>
+    <div class="sun svg-sun">
+
+    </div>
+
+  </main>
+
+
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Otomewo Edeguare.</a>.
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>

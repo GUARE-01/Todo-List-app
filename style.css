@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  /* height: 100vh; */
+  font-family: "Josefin Sans", sans-serif;
+}
+.hidden {
+  display: none;
+}
+.hide-parmanently{
+  display: none;
+}
+ul {
+  list-style: none;
+}
+h1 {
+  letter-spacing: 10px;
+}
+/* utility classes */
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 4rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+.f-s12 {
+  font-size: 12px;
+}
+.f-s10 {
+  font-size: 10px;
+}
+.weight-400 {
+  font-weight: 400;
+}
+.weight-700 {
+  font-weight: 700;
+}
+header {
+  background-image: url(/images/bg-desktop-light.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 32vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* color classes */
+.p-brightBlue {
+  color: hsl(220, 98%, 61%);
+}
+.p-checkBackground {
+  background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+.l-veryLightGrey {
+  color: hsl(0, 0%, 98%);
+}
+.l-veryLightGrayishBlue {
+  color: hsl(236, 33%, 92%);
+}
+.l-lightGrayishblue {
+  color: hsl(233, 11%, 84%);
+}
+.l-darkGreyishBlue {
+  color: hsl(236, 9%, 61%);
+}
+.l-veryDarkGreyishBlue {
+  color: hsl(235, 19%, 35%);
+}
+.d-veryDarkBlue {
+  color: hsl(235, 21%, 11%);
+}
+.d-veryDarkDesaturatedBlue {
+  color: hsl(235, 24%, 19%);
+}
+.d-lightGrayishBlue {
+  color: hsl(234, 39%, 85%);
+}
+.d-darkGreyishBlue {
+  color: hsl(234, 11%, 52%);
+}
+.d-veryDarkGreyishBlue {
+  color: hsl(233, 14%, 35%);
+}
+.d-veryDarkGreyishBlue1 {
+  color: hsl(237, 14%, 26%);
+}
+/* svg size classes */
+
+.svg-arrow {
+  width: 16px;
+  height: 16px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+.new-todo {
+  width: 375px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 0 16px;
+  border-radius: 5px;
+}
+.list-entry {
+  text-decoration: none;
+}
+.new-entry {
+  width: 90%;
+  height: 40px;
+  color: hsl(235, 19%, 35%);
+  font-weight: 700;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+.new-entry::placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  color: hsl(235, 19%, 35%);
+}
+.input-uncheck {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: none;
+  border: 1px solid hsl(236, 9%, 61%);
+}
+.btn-uncheck {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: none;
+  border: 1px solid hsl(236, 9%, 61%);
+}
+.btn-uncheck:hover {
+  border-color: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.btn-check {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+.btn-todo-list {
+  position: absolute;
+  top: 12.5px;
+  left: 15.5px;
+}
+main {
+  min-height: 62vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(236, 33%, 92%);
+}
+.main {
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 5px;
+  margin-top: -20px;
+}
+
+.todo-lists {
+  width: 375px;
+}
+.list-footer {
+  width: 375px;
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  align-items: center;
+}
+.btn-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.btn-footer {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+.btn-footer:hover {
+  color: hsl(235, 19%, 35%);
+}
+.btn-cancel {
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 15px;
+  height: 15px;
+}
+.btn-arrow {
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 15px;
+  height: 15px;
+}
+li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 0.1px solid hsl(236, 9%, 61%);
+  height: 40px;
+  padding: 1rem;
+}
+.image-size {
+  height: 50%;
+  width: 50%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px){
+  header{
+    background: url(/images/bg-mobile-light.jpg);
+    width: 100%;
+    height: 40vh;
+  }
+  .new-todo{
+    width: 85%;
+
+  }
+  .logo{
+    width: 85%;
+  }
+  .main{
+    width: 85%;
+    /* margin-top: 15px; */
+
+  }
+  .todo-lists{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+  .list-footer{
+    width: 100%;
+  }
+}
