@@ -44,8 +44,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/GUARE-01/Todo-List-app)
+- Live Site URL: [Live site URL](https://guare-todolist-app.netlify.app/)
 
 ## My process
 
@@ -74,4 +74,4 @@ Moving forward i'll be embracing mobile first development for my next project an
 
 - Github - [@GUARE-01](https://github.com/GUARE-01)
 - Frontend Mentor - [@GUARE-01](https://www.frontendmentor.io/profile/GUARE-01)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@edeguare_](https://www.twitter.com/edeguare_)
